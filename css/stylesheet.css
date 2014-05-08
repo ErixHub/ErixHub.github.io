@@ -1,11 +1,13 @@
-html body main {
-	background:url("../images/usflag.jpg");
-	background-repeat:no-repeat;
-	background-color:#000;
+main {
+	background:url("../images/a.jpg");
+	background-repeat:repeat;
+	background-color:#006373;
 	margin-top:0px;
+	margin-left:5%;
+	margin-right:5%;
 }
 body {
-	background-color:#000;
+	background-color:#d68533;
 }
 body, h1, h2, h3, h4, h5, h6 p{
  font: 1.5em "Verdana", Georgia,Serif;
