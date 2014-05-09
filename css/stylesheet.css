@@ -1,13 +1,16 @@
-main {
-	background:url("../images/a.jpg");
-	background-repeat:repeat;
-	background-color:#006373;
+html {
+	background-color:#fff;
+}
+html body main {
+	/*background:url("../images/a.jpg");
+	background-repeat:repeat;*/
+	background-color:#fff;
 	margin-top:0px;
 	margin-left:5%;
 	margin-right:5%;
 }
 body {
-	background-color:#d68533;
+	background-color:#fff;
 }
 body, h1, h2, h3, h4, h5, h6 p{
  font: 1.5em "Verdana", Georgia,Serif;
@@ -42,8 +45,9 @@ aside{
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	margin-top:10px;
-	/*box-shadow:-4px 6px 8px #000;*/
-	background:url("../images/granite.jpg");
+	background-color:#006373;
+	/*box-shadow:-4px 6px 8px #000;
+	background:url("../images/granite.jpg");*/
 }
 aside h3{
 	font-weight: bold;
@@ -53,8 +57,8 @@ aside ul{
 	padding-left:10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
-	box-shadow:-4px 6px 8px #000;
-	background:url("../images/granitefade.jpg");
+	/*box-shadow:-4px 6px 8px #000;
+	background:url("../images/granitefade.jpg");*/
 }
 aside ul li{
 	font-weight: bold;
@@ -150,4 +154,14 @@ footer {
 	h3 {font-size:12px;}
 	.banner{display:none;}
 	.photobanner{display:none;}
+}
+.btn-default {
+color: #fff;
+background-color: #006373;
+border-color: #fff;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+color: #006373;
+background-color: #ebebeb;
+border-color: #fff;
 }
